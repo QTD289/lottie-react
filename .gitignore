@@ -8,9 +8,9 @@ node_modules
 # IDE directories
 .idea
 
-/compiled
+
 /.docz
 /docs-dist
-build
+
 
 .DS_Store

@@ -35,7 +35,7 @@ export type LottieRefCurrentProps = {
 
 export type LottieRef = MutableRefObject<LottieRefCurrentProps | null>;
 
-export type LottieOptions<T extends RendererType = "svg"> = Omit<
+export type LottieOptions<T extends RendererType = "svg" | "canvas"> = Omit<
   AnimationConfigWithData<T>,
   "container" | "animationData"
 > & {

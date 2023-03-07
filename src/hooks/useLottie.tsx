@@ -19,7 +19,7 @@ import {
   PartialListener,
 } from "../types";
 
-const useLottie = <T extends RendererType = "svg">(
+const useLottie = <T extends RendererType = "svg" | "canvas">(
   props: LottieOptions<T>,
   style?: CSSProperties,
 ): { View: ReactElement } & LottieRefCurrentProps => {
